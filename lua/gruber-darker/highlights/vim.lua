@@ -24,9 +24,9 @@ M.highlights.conceal = Highlight.new("Conceal", { fg = c.fg, bg = c.bg })
 ---Character under the cursor
 M.highlights.cursor = Highlight.new("Cursor", { bg = c.yellow, fg = c.bg })
 ---The character under the cursor when |language-mapping| is used (see 'guicursor')
-M.highlights.l_cursor = Highlight.new("lCursor", { fg = c.none, bg = c.yellow })
+M.highlights.l_cursor = Highlight.new("lCursor", { fg = c.bg, bg = c.yellow })
 ---Like Cursor, but used when in IME mode |CursorIM|
-M.highlights.cursor_im = Highlight.new("CursorIM", { fg = c.none, bg = c.yellow })
+M.highlights.cursor_im = Highlight.new("CursorIM", { fg = c.bg, bg = c.yellow })
 ---Screen-column at the cursor, when 'cursorcolumn' is set.
 M.highlights.cursor_column = Highlight.new("CursorColumn", { bg = c["bg+2"] })
 ---Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
