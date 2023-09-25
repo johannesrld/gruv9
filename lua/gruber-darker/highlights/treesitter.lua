@@ -131,6 +131,7 @@ M.highlights.type_builtin = Highlight.new("@type.builtin", { link = gruber_hl.qu
 M.highlights.type_definition = Highlight.new("@type.definition", { link = gruber_hl.quartz })
 ---type qualifiers (e.g. `const`)
 -- M.highlights.type_qualifier = Highlight.new("@type.qualifier", {})
+M.highlights.type
 
 ---modifiers that affect storage in memory or life-time
 M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.storage_class })
@@ -141,6 +142,7 @@ M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.stor
 M.highlights.field = Highlight.new("@field", { link = gruber_hl.niagara })
 ---similar to `@field`
 M.highlights.property = Highlight.new("@property", { link = gruber_hl.dark_niagara })
+M.highlights.property_class_css = Highlight.new("@property.class.css", { link = gruber_hl.quartz })
 
 -- Identifiers
 
