@@ -73,7 +73,7 @@ M.highlights.line_number = Highlight.new("LineNr", { fg = c["bg+4"] })
 ---Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
 M.highlights.cursor_line_number = Highlight.new("CursorLineNr", { fg = c.yellow })
 ---The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
-M.highlights.match_paren = Highlight.new("MatchParen", { fg = c.fg, bg = c.wisteria })
+M.highlights.match_paren = Highlight.new("MatchParen", { fg = c.wisteria, bg = c["bg-1"] })
 ---'showmode' message (e.g., "---INSERT ---")
 M.highlights.mode_msg = Highlight.new("ModeMsg", { link = gruber_hl.fg2 })
 ---Area for messages and cmdline
