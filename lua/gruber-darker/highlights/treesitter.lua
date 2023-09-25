@@ -51,7 +51,7 @@ M.highlights.punctuation_special = Highlight.new("@punctuation.special", { link 
 ---String literals
 M.highlights.string = Highlight.new("@string", { link = vim_hl.string })
 ---String documenting code (e.g. Python docstrings)
-M.highlights.string_documentation = Highlight.new("@string.documentation", { link = gruber_hl["bg+2"] })
+M.highlights.string_documentation = Highlight.new("@string.documentation", { link = vim_hl.comment })
 ---Regular expressions
 M.highlights.string_regex = Highlight.new("@string.regex", { link = vim_hl.constant })
 ---Escape sequences
