@@ -42,7 +42,7 @@ M.highlights.operator = Highlight.new("@operator", { link = vim_hl.operator })
 ---Delimiters (e.g. `;` / `.` / `,`)
 M.highlights.punctuation_delimiter = Highlight.new("@punctuation.delimiter", { link = vim_hl.delimiter })
 ---Brackets (e.g. `()` / `{}` / `[]`)
-M.highlights.punctuation_bracket = Highlight.new("@punctuation.bracket", { link = gruber_hl.wisteria })
+M.highlights.punctuation_bracket = Highlight.new("@punctuation.bracket", { link = vim_hl.delimiter })
 ---Special symbols (e.g. `{}` in string interpolation)
 M.highlights.punctuation_special = Highlight.new("@punctuation.special", { link = gruber_hl.brown })
 
