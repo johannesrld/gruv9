@@ -131,7 +131,6 @@ M.highlights.type_builtin = Highlight.new("@type.builtin", { link = gruber_hl.qu
 M.highlights.type_definition = Highlight.new("@type.definition", { link = gruber_hl.quartz })
 ---type qualifiers (e.g. `const`)
 -- M.highlights.type_qualifier = Highlight.new("@type.qualifier", {})
-M.highlights.type
 
 ---modifiers that affect storage in memory or life-time
 M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.storage_class })
