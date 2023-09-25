@@ -117,7 +117,7 @@ M.highlights.debug = Highlight.new("@debug", { link = vim_hl.debug })
 ---GOTO and other labels (e.g. `label:` in C)
 M.highlights.label = Highlight.new("@label", { link = vim_hl.label })
 ---keywords for including modules (e.g. `import` / `from` in Python)
--- M.highlights.include = Highlight.new("@include", {})
+M.highlights.include = Highlight.new("@include", {link = gruber_hl.yellow})
 ---keywords related to exceptions (e.g. `throw` / `catch`)
 -- M.highlights.exception = Highlight.new("@exception", {})
 
