@@ -140,7 +140,7 @@ M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.stor
 ---object and struct fields
 M.highlights.field = Highlight.new("@field", { link = gruber_hl.niagara })
 ---similar to `@field`
-M.highlights.property = Highlight.new("@property", { link = gruber_hl.dark_niagara })
+M.highlights.property = Highlight.new("@property", { link = gruber_hl.niagara })
 M.highlights.property_css = Highlight.new("@property.css", {link = gruber_hl.yellow } )
 M.highlights.string_plain_css = Highlight.new("@string.plain.css", {link = gruber_hl.fg })
 M.highlights.property_class_css = Highlight.new("@property.class.css", { link = gruber_hl.quartz })
