@@ -27,9 +27,10 @@ M.highlights.diagnostic_underline_info = Highlight.new("DiagnosticUnderlineInfo"
 M.highlights.diagnostic_hint = Highlight.new("DiagnosticHint", { link = gruber_hl.wisteria })
 M.highlights.diagnostic_sign_hint = Highlight.new("DiagnosticSignHint", { link = gruber_hl.wisteria_sign })
 M.highlights.diagnostic_underline_hint =
-	Highlight.new("DiagnosticUnderlineHint", { link = gruber_hl.wisteria_underline })
+		Highlight.new("DiagnosticUnderlineHint", { link = gruber_hl.wisteria_underline })
 
-M.highlights.diagnostic_unnecessary = Highlight.new("DiagnosticUnnecessary", { link = M.highlights.diagnostic_underline_hint })
+M.highlights.diagnostic_unnecessary = Highlight.new("DiagnosticUnnecessary",
+	{ link = M.highlights.diagnostic_underline_hint })
 
 ---LspSaga floating windows
 M.highlights.saga_normal = Highlight.new("SagaNormal", { link = vim_hl.normal_float })
@@ -48,7 +49,7 @@ M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_bor
 ---Used to highlight the active parameter in the signature help.
 -- M.highlights.lsp_signature_active_parameter = Highlight.new("LspSignatureActiveParameter", {})
 
--- M.highlights.lsp_type_class = Highlight.new("@lsp.type.class", {})
+M.highlights.lsp_type_class = Highlight.new("@lsp.type.class", { link = gruber_hl.quartz })
 -- M.highlights.lsp_type_decorator = Highlight.new("@lsp.type.decorator", {})
 -- M.highlights.lsp_type_enum = Highlight.new("@lsp.type.enum", {})
 -- M.highlights.lsp_type_enum_member = Highlight.new("@lsp.type.enumMember", {})
