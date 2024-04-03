@@ -146,7 +146,6 @@ M.highlights.string_plain_css = Highlight.new("@string.plain.css", {link = grube
 M.highlights.property_class_css = Highlight.new("@property.class.css", { link = gruber_hl.quartz })
 
 -- Identifiers
-
 ---various variable names
 M.highlights.variable = Highlight.new("@variable", { link = vim_hl.identifier })
 ---built-in variable names (e.g. `this`)
@@ -155,7 +154,7 @@ M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = grub
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
 ---built-in constant values
-M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = gruber_hl.yellow })
+M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = vim_hl.constant })
 ---constants defined by the preprocessor
 M.highlights.constant_macro = Highlight.new("@constant.macro", { link = vim_hl.define })
 
