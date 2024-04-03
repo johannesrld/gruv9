@@ -1,7 +1,7 @@
 local Highlight = require("gruber-darker.highlight")
 local vim_hl = require("gruber-darker.highlights.vim").highlights
 local gruber_hl = require("gruber-darker.highlights.colorscheme").highlights
-
+local c = require("gruber-darker.palette")
 ---@type HighlightsProvider
 local M = {
 	highlights = {},
@@ -63,6 +63,6 @@ M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_bor
 -- M.highlights.lsp_type_struct = Highlight.new("@lsp.type.struct", {})
 -- M.highlights.lsp_type_type = Highlight.new("@lsp.type.type", {})
 -- M.highlights.lsp_type_type_parameter = Highlight.new("@lsp.type.typeParameter", {})
-M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { fg = "1aaaaaa" })
+M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { fg = c.red })
 
 return M
