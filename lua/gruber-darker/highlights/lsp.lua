@@ -63,6 +63,6 @@ M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_bor
 -- M.highlights.lsp_type_struct = Highlight.new("@lsp.type.struct", {})
 -- M.highlights.lsp_type_type = Highlight.new("@lsp.type.type", {})
 -- M.highlights.lsp_type_type_parameter = Highlight.new("@lsp.type.typeParameter", {})
-M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { link = gruber_hl.fg1 })
+M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { fg = "1aaaaaa" })
 
 return M
