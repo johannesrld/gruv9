@@ -108,7 +108,7 @@ M.highlights.keyword = Highlight.new("@keyword", { link = vim_hl.keyword })
 ---keywords related to conditionals (e.g. `if` / `else`)
 M.highlights.conditional = Highlight.new("@conditional", { fg = c.yellow })
 ---ternary operator (e.g. `?` / `:`)
-M.highlights.conditional_ternary = Highlight.new("@conditional.ternary", {})
+M.highlights.conditional_ternary = Highlight.new("@conditional.ternary", { link = vim_hl.operator})
 
 ---keywords related to loops (e.g. `for` / `while`)
 M.highlights.repeats = Highlight.new("@repeat", { link = vim_hl.repeats })
