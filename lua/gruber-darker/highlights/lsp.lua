@@ -48,7 +48,7 @@ M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_bor
 -- M.highlights.lsp_code_lens_separator = Highlight.new("LspCodeLensSeparator", {})
 ---Used to highlight the active parameter in the signature help.
 -- M.highlights.lsp_signature_active_parameter = Highlight.new("LspSignatureActiveParameter", {})
-
+M.highlights.lsp_type = Highlight.new("@lsp.type", { link = gruber_hl.quartz })
 M.highlights.lsp_type_class = Highlight.new("@lsp.type.class", { link = gruber_hl.quartz })
 -- M.highlights.lsp_type_decorator = Highlight.new("@lsp.type.decorator", {})
 -- M.highlights.lsp_type_enum = Highlight.new("@lsp.type.enum", {})
