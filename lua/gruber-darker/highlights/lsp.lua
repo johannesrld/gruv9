@@ -53,6 +53,7 @@ M.highlights.lsp_type_class = Highlight.new("@lsp.type.class", { link = gruber_h
 -- M.highlights.lsp_type_decorator = Highlight.new("@lsp.type.decorator", {})
 M.highlights.lsp_type_enum = Highlight.new("@lsp.type.enum", { link = gruber_hl.quartz })
 -- M.highlights.lsp_type_enum_member = Highlight.new("@lsp.type.enumMember", {})
+M.highlights.lsp_type_member = Highlight.new("@lsp.type.member", { link = gruber_hl.niagara })
 -- M.highlights.lsp_type_function = Highlight.new("@lsp.type.function", {})
 M.highlights.lsp_type_interface = Highlight.new("@lsp.type.interface", {})
 -- M.highlights.lsp_type_macro = Highlight.new("@lsp.type.macro", {})
