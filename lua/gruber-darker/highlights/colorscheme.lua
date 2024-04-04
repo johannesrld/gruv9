@@ -18,7 +18,7 @@ end
 -- https://github.com/ellisonleao/gruvbox.nvim/blob/main/lua/gruvbox/groups.lua#L43
 
 -- Colors
-
+M.highlights.fg_1 = Highlight.new("GruberDarkerFg-1", { fg = c["fg-1"]})
 M.highlights.fg0 = Highlight.new("GruberDarkerFg0", { fg = c.fg })
 M.highlights.fg1 = Highlight.new("GruberDarkerFg1", { fg = c["fg+1"] })
 M.highlights.fg2 = Highlight.new("GruberDarkerFg2", { fg = c["fg+2"] })
