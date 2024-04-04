@@ -66,4 +66,5 @@ M.highlights.lsp_type_namespace = Highlight.new("@lsp.type.namespace", { link = 
 -- M.highlights.lsp_type_type_parameter = Highlight.new("@lsp.type.typeParameter", {})
 M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { link = gruber_hl.fg1 })
 
+M.highlights.lsp_type_variable = Highlight.new("@lsp.typemod.variable.readonly", { link = gruber_hl.fg_1 })
 return M
