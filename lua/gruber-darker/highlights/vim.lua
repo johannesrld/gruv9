@@ -169,9 +169,9 @@ M.highlights.wild_menu = Highlight.new("WildMenu", { fg = c.black, bg = c.yellow
 ---(preferred) any constant
 M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.quartz })
 ---A string constant: "this is a string"
-M.highlights.string = Highlight.new("String", { fg = c.green, italic = opts.italic.strings })
+M.highlights.string = Highlight.new("String", { fg = c.green })
 ---A character constant: 'c', '\n'
-M.highlights.character = Highlight.new("Character", { fg = c.green, italic = opts.italic.strings })
+M.highlights.character = Highlight.new("Character", { fg = c.green})
 ---A number constant: 234, 0xff
 M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A boolean constant: TRUE, false
