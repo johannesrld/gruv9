@@ -221,7 +221,7 @@ M.highlights.special_char = Highlight.new("SpecialChar", { link = gruber_hl.yell
 ---You can use CTRL-] on this
 M.highlights.tag = Highlight.new("Tag", { link = gruber_hl.yellow })
 ---Character that needs attention
-M.highlights.delimiter = Highlight.new("Delimiter", { fg = c["bg+3"] })
+M.highlights.delimiter = Highlight.new("Delimiter", { link = gruber_hl.fg0 })
 ---Special things inside a comment
 M.highlights.special_comment = Highlight.new("SpecialComment", { link = gruber_hl.wisteria_bold })
 ---Debugging statements
