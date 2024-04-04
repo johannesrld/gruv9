@@ -167,11 +167,11 @@ M.highlights.wild_menu = Highlight.new("WildMenu", { fg = c.black, bg = c.yellow
 ---Uncomment and edit if you want more specific syntax highlighting.
 
 ---(preferred) any constant
-M.highlights.constant = Highlight.new("Constant", { fg = c["niagara-1"] })
+M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg1 })
 ---A string constant: "this is a string"
 M.highlights.string = Highlight.new("String", { fg = c.green })
 ---A character constant: 'c', '\n'
-M.highlights.character = Highlight.new("Character", { fg = c.green })
+M.highlights.character = Highlight.new("Character", { fg = c.green})
 ---A number constant: 234, 0xff
 M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A boolean constant: TRUE, false
@@ -191,7 +191,7 @@ M.highlights.repeats = Highlight.new("Repeat", { link = gruber_hl.yellow_bold })
 ---Case,, etc.
 M.highlights.label = Highlight.new("Label", { link = gruber_hl.yellow_bold })
 ---"sizeof", "+", "*", etc.
-M.highlights.operator = Highlight.new("Operator", { fg = c.fg })
+M.highlights.operator = Highlight.new("Operator", { fg = c.fg})
 ---Any other keyword
 M.highlights.keyword = Highlight.new("Keyword", { link = gruber_hl.yellow_bold })
 ---Try, catch, throw
