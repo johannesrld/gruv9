@@ -211,7 +211,7 @@ M.highlights.type = Highlight.new("Type", { link = gruber_hl.quartz })
 ---Static, register, volatile, etc.
 M.highlights.storage_class = Highlight.new("StorageClass", { link = gruber_hl.yellow_bold })
 ---Struct, union, enum, etc.
-M.highlights.structure = Highlight.new("Structure", { link = gruber_hl.yellow_bold })
+M.highlights.structure = Highlight.new("Structure", { link = gruber_hl.quartz })
 ---A typedef
 M.highlights.typedef = Highlight.new("Typedef", { link = gruber_hl.quartz })
 ---(preferred) any special symbol
