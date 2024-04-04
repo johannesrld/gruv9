@@ -68,5 +68,6 @@ M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { link = gr
 M.highlights.lsp_type_variable_python = Highlight.new("@lsp.type.variable.python", {})
 M.highlights.lsp_typemod_variable = Highlight.new("@lsp.typemod.variable.readonly", { link = gruber_hl.fg_1 })
 M.highlights.lsp_typemod_variable_python = Highlight.new("@lsp.typemod.variable.readonly.python", {})
+M.highlights.lsp_type_keyword = Highlight.new("@lsp.type.keyword", { link = gruber_hl.yellow })
 
 return M
