@@ -64,8 +64,8 @@ M.highlights.lsp_type_namespace = Highlight.new("@lsp.type.namespace", { link = 
 -- M.highlights.lsp_type_struct = Highlight.new("@lsp.type.struct", {})
 -- M.highlights.lsp_type_type = Highlight.new("@lsp.type.type", {})
 -- M.highlights.lsp_type_type_parameter = Highlight.new("@lsp.type.typeParameter", {})
-M.highlights.lsp_type_variable = Highlight.new("@lsp.typemod.variable.readonly", { link = gruber_hl.fg_1 })
-M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { link = gruber_hl.fg1 })
-M.highlights.lsp_type_variable_python = Highlight.new("@lsp.type.variable.python", {})
+M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", {})
+M.highlights.lsp_typemod_variable = Highlight.new("@lsp.typemod.variable.readonly", { link = gruber_hl.fg_1 })
+-- M.highlights.lsp_type_variable_python = Highlight.new("@lsp.type.variable.python", {})
 
 return M
