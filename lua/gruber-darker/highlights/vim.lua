@@ -213,7 +213,7 @@ M.highlights.storage_class = Highlight.new("StorageClass", { link = gruber_hl.ye
 ---Struct, union, enum, etc.
 M.highlights.structure = Highlight.new("Structure", { link = gruber_hl.yellow_bold })
 ---A typedef
-M.highlights.typedef = Highlight.new("Typedef", { link = gruber_hl.yellow_bold })
+M.highlights.typedef = Highlight.new("Typedef", { link = gruber_hl.quartz })
 ---(preferred) any special symbol
 M.highlights.special = Highlight.new("Special", { link = gruber_hl.yellow })
 --- special character in a constant
