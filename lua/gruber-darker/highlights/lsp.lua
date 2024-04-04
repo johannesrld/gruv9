@@ -67,5 +67,6 @@ M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_bor
 -- M.highlights.lsp_type_variable = Highlight.new("@lsp.type.variable", { link = gruber_hl.fg1 })
 -- M.highlights.lsp_typemod_variable = Highlight.new("@lsp.typemod.variable.readonly", { link = gruber_hl.fg_1 })
 -- M.highlights.lsp_type_keyword = Highlight.new("@lsp.type.keyword", { link = gruber_hl.yellow })
+M.highlights.lsp_typemod_variable_readonly = Highlight.new("@lsp.typemod.variable.readonly", { link = vim_hl.constant})
 
 return M
