@@ -175,7 +175,7 @@ M.highlights.character = Highlight.new("Character", { fg = c.green})
 ---A number constant: 234, 0xff
 M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A boolean constant: TRUE, false
-M.highlights.boolean = Highlight.new("Boolean", { link = gruber_hl.yellow_bold })
+M.highlights.boolean = Highlight.new("Boolean", { link = gruber_hl.quartz })
 ---A floating point constant: 2.3e10
 M.highlights.float = Highlight.new("Float", { link = gruber_hl.wisteria })
 ---(preferred) any variable name
@@ -191,7 +191,7 @@ M.highlights.repeats = Highlight.new("Repeat", { link = gruber_hl.yellow_bold })
 ---Case,, etc.
 M.highlights.label = Highlight.new("Label", { link = gruber_hl.yellow_bold })
 ---"sizeof", "+", "*", etc.
-M.highlights.operator = Highlight.new("Operator", { fg = c.fg, italic = opts.italic.operators })
+M.highlights.operator = Highlight.new("Operator", { fg = c.fg})
 ---Any other keyword
 M.highlights.keyword = Highlight.new("Keyword", { link = gruber_hl.yellow_bold })
 ---Try, catch, throw
