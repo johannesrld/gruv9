@@ -55,7 +55,7 @@ M.highlights.string_documentation = Highlight.new("@string.documentation", { lin
 ---Regular expressions
 M.highlights.string_regex = Highlight.new("@string.regex", { link = vim_hl.constant })
 ---Escape sequences
-M.highlights.string_escape = Highlight.new("@string.escape", { link = vim_hl.constant })
+M.highlights.string_escape = Highlight.new("@string.escape", { link = gruber_hl.red })
 ---Other special strings (e.g dates)
 M.highlights.string_special = Highlight.new("@string.special", { link = vim_hl.constant })
 
