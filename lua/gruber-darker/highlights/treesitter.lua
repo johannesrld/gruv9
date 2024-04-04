@@ -44,7 +44,7 @@ M.highlights.punctuation_delimiter = Highlight.new("@punctuation.delimiter", { l
 ---Brackets (e.g. `()` / `{}` / `[]`)
 M.highlights.punctuation_bracket = Highlight.new("@punctuation.bracket", { link = gruber_hl.fg1 })
 ---Special symbols (e.g. `{}` in string interpolation)
-M.highlights.punctuation_special = Highlight.new("@punctuation.special", { link = vim_hl.delimiter })
+M.highlights.punctuation_special = Highlight.new("@punctuation.special", { link = gruber_hl.bg2 })
 -- Literals
 
 ---String literals
