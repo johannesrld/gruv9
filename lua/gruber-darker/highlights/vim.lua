@@ -172,10 +172,10 @@ M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg_1 })
 M.highlights.string = Highlight.new("String", { fg = c.green })
 ---A character constant: 'c', '\n'
 M.highlights.character = Highlight.new("Character", { fg = c.green})
----A number constant: 234, 0xff
-M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A boolean constant: TRUE, false
 M.highlights.boolean = Highlight.new("Boolean", { link = gruber_hl.quartz })
+---A number constant: 234, 0xff
+M.highlights.number = Highlight.new("Number", { link = gruber_hl.wisteria })
 ---A floating point constant: 2.3e10
 M.highlights.float = Highlight.new("Float", { link = gruber_hl.wisteria })
 ---(preferred) any variable name
