@@ -167,7 +167,7 @@ M.highlights.wild_menu = Highlight.new("WildMenu", { fg = c.black, bg = c.yellow
 ---Uncomment and edit if you want more specific syntax highlighting.
 
 ---(preferred) any constant
-M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg1 })
+M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg_1 })
 ---A string constant: "this is a string"
 M.highlights.string = Highlight.new("String", { fg = c.green })
 ---A character constant: 'c', '\n'
