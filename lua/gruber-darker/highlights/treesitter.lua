@@ -75,7 +75,7 @@ M.highlights.float = Highlight.new("@float", { link = vim_hl.float })
 ---Function definitions
 M.highlights.func = Highlight.new("@function", { link = vim_hl.func })
 ---Built-in functions
-M.highlights.func_builtin = Highlight.new("@function.builtin", { link = gruber_hl.yellow })
+M.highlights.func_builtin = Highlight.new("@function.builtin", { link = vim_hl.func })
 ---Function calls
 -- M.highlights.func_call = Highlight.new("@function.call", {})
 ---Preprocessor macros
