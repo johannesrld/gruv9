@@ -25,8 +25,8 @@ local DEFAULTS = {
 		visual = false,
 	},
 	italic = {
-		strings = true,
-		comments = true,
+		strings = false,
+		comments = false,
 		operators = false,
 		folds = true,
 	},

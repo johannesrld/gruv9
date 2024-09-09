@@ -30,6 +30,8 @@ M.highlights.bg2 = Highlight.new("GruberDarkerBg2", { fg = c["bg+2"] })
 M.highlights.bg3 = Highlight.new("GruberDarkerBg3", { fg = c["bg+3"] })
 M.highlights.bg4 = Highlight.new("GruberDarkerBg4", { fg = c["bg+4"] })
 
+M.highlights.grey = Highlight.new("GruberGrey", {fg = c.grey})
+
 M.highlights.dark_red = Highlight.new("GruberDarkerDarkRed", { fg = c["red-1"] })
 M.highlights.dark_red_bold = Highlight.new("GruberDarkerDarkRedBold", { fg = c["red-1"], bold = opts.bold })
 M.highlights.red = Highlight.new("GruberDarkerRed", { fg = c.red })

@@ -16,7 +16,7 @@ function M.setup()
 end
 
 ---Any comment
-M.highlights.comment = Highlight.new("Comment", { fg = c.brown, italic = opts.italic.comments })
+M.highlights.comment = Highlight.new("Comment", { fg = c.green, italic = opts.italic.comments })
 ---Used for the columns set with 'colorcolumn'
 M.highlights.color_column = Highlight.new("ColorColumn", { bg = c["bg+2"] })
 ---Placeholder characters substituted for concealed text (see 'conceallevel')
@@ -167,11 +167,11 @@ M.highlights.wild_menu = Highlight.new("WildMenu", { fg = c.black, bg = c.yellow
 ---Uncomment and edit if you want more specific syntax highlighting.
 
 ---(preferred) any constant
-M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg_1 })
+M.highlights.constant = Highlight.new("Constant", { link = gruber_hl.fg1 })
 ---A string constant: "this is a string"
-M.highlights.string = Highlight.new("String", { fg = c.green })
+M.highlights.string = Highlight.new("String", { fg = c.brown })
 ---A character constant: 'c', '\n'
-M.highlights.character = Highlight.new("Character", { fg = c.green})
+M.highlights.character = Highlight.new("Character", { fg = c.brown})
 ---A boolean constant: TRUE, false
 M.highlights.boolean = Highlight.new("Boolean", { link = gruber_hl.quartz })
 ---A number constant: 234, 0xff
@@ -199,11 +199,11 @@ M.highlights.exception = Highlight.new("Exception", { link = gruber_hl.yellow_bo
 ---(preferred) generic Preprocessor
 M.highlights.pre_proc = Highlight.new("PreProc", { link = gruber_hl.quartz })
 ---Preprocessor #include
-M.highlights.include = Highlight.new("Include", { link = gruber_hl.quartz })
+M.highlights.include = Highlight.new("Include", { link = gruber_hl.yellow_bold })
 ---Preprocessor #define
 M.highlights.define = Highlight.new("Define", { link = gruber_hl.quartz })
 ---Same as Define
-M.highlights.macro = Highlight.new("Macro", { link = gruber_hl.quartz })
+M.highlights.macro = Highlight.new("Macro", { link = gruber_hl.niagara })
 ---Preprocessor #if, #else, #endif, etc.
 M.highlights.pre_condit = Highlight.new("PreCondit", { link = gruber_hl.quartz })
 ---(preferred) int, long, char, etc.
