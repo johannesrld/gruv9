@@ -4,6 +4,7 @@ local M = {}
 ---@type table<string, Color>
 M = {
 	none = Color.none(),
+	comments_lol = Color.new(0x727272),
 	["fg-1"] = Color.new(0xb3b3b3),     -- #b3b3b3,
 	fg = Color.new(0xe1e1e1),          -- #e4e4e4
 	["fg+1"] = Color.new(0xf4f4ff),    -- #f4f4ff
