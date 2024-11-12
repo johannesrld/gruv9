@@ -16,7 +16,7 @@ function M.setup()
 end
 
 ---Any comment
-M.highlights.comment = Highlight.new("Comment", { fg = c.green, italic = opts.italic.comments })
+M.highlights.comment = Highlight.new("Comment", { fg = c.comments_lol, italic = opts.italic.comments })
 ---Used for the columns set with 'colorcolumn'
 M.highlights.color_column = Highlight.new("ColorColumn", { bg = c["bg+2"] })
 ---Placeholder characters substituted for concealed text (see 'conceallevel')
