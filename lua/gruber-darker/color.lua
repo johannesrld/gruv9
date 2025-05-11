@@ -31,11 +31,8 @@ function Color:to_string()
 
 	-- special edge case for BLACK where
 	-- "#0" is returned, which is invalid to Neovim
-	if self.value == 0 then
-		return "#000000"
-	end
 
-	return string.format("#%x", self.value)
+	return "#" .. bit.tohex(self.value, 6)
 end
 
 return Color
