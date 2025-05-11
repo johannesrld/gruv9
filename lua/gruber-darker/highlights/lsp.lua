@@ -48,5 +48,8 @@ M.highlights.lsp_typemod_variable_static = Highlight.new("@lsp.typemod.variable.
 M.highlights.lsp_typemod_variable_readonly = Highlight.new("@lsp.typemod.variable.readonly", { link = vim_hl.constant })
 M.highlights.lsp_type_format_specifier = Highlight.new("@lsp.type.formatSpecifier", { link = gruber_hl.yellow })
 M.highlights.lsp_type_punctuation = Highlight.new("@lsp.type.punctuation", {link = vim_hl.delimiter})
+M.highlights.lsp_function_method_call_cs = Highlight.new("@function.method.call.c_sharp", {link = "@none"})
+M.highlights.lsp_function_method_call_cs = Highlight.new("@lsp.type.keyword.cs", {link = "@none"})
+
 
 return M
