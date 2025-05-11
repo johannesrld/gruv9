@@ -11,31 +11,6 @@ function M.setup()
 		value:setup()
 	end
 end
-
-M.highlights.diagnostic_error = Highlight.new("DiagnosticError", { link = gruber_hl.red_bold })
-M.highlights.diagnostic_sign_error = Highlight.new("DiagnosticSignError", { link = gruber_hl.red_sign })
-M.highlights.diagnostic_underline_error = Highlight.new("DiagnosticUnderlineError", { link = gruber_hl.red_underline })
-
-M.highlights.diagnostic_warn = Highlight.new("DiagnosticWarn", { link = gruber_hl.yellow_bold })
-M.highlights.diagnostic_sign_warn = Highlight.new("DiagnosticSignWarn", { link = gruber_hl.yellow_sign })
-M.highlights.diagnostic_underline_warn = Highlight.new("DiagnosticUnderlineWarn", { link = gruber_hl.yellow_underline })
-
-M.highlights.diagnostic_info = Highlight.new("DiagnosticInfo", { link = gruber_hl.green_bold })
-M.highlights.diagnostic_sign_info = Highlight.new("DiagnosticSignInfo", { link = gruber_hl.green_sign })
-M.highlights.diagnostic_underline_info = Highlight.new("DiagnosticUnderlineInfo", { link = gruber_hl.green_underline })
-
-M.highlights.diagnostic_hint = Highlight.new("DiagnosticHint", { link = gruber_hl.wisteria })
-M.highlights.diagnostic_sign_hint = Highlight.new("DiagnosticSignHint", { link = gruber_hl.wisteria_sign })
-M.highlights.diagnostic_underline_hint =
-		Highlight.new("DiagnosticUnderlineHint", { link = gruber_hl.wisteria_underline })
-
-M.highlights.diagnostic_unnecessary = Highlight.new("DiagnosticUnnecessary",
-	{ link = M.highlights.diagnostic_underline_hint })
-
----LspSaga floating windows
-M.highlights.saga_normal = Highlight.new("SagaNormal", { link = vim_hl.normal_float })
-M.highlights.saga_border = Highlight.new("SagaBorder", { link = vim_hl.float_border })
-
 ---Used for highlighting "text" references
 -- M.highlights.lsp_reference_text = Highlight.new("LspReferenceText", {})
 ---Used for highlighting "read" references
