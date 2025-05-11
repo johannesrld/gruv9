@@ -73,15 +73,15 @@ M.highlights.wisteria_sign = Highlight.new("GruberDarkerWisteriaSign", { fg = c.
 
 -- Underlines
 
-M.highlights.red_underline = Highlight.new("GruberDarkerRedUnderline", { sp = c.red, undercurl = opts.undercurl })
+M.highlights.red_underline = Highlight.new("GruberDarkerRedUnderline", { sp = c.red, underline = opts.undercurl })
 M.highlights.yellow_underline =
-	Highlight.new("GruberDarkerYellowUnderline", { sp = c.yellow, undercurl = opts.undercurl })
-M.highlights.green_underline = Highlight.new("GruberDarkerGreenUnderline", { sp = c.green, undercurl = opts.undercurl })
+	Highlight.new("GruberDarkerYellowUnderline", { sp = c.yellow, underline = opts.undercurl })
+M.highlights.green_underline = Highlight.new("GruberDarkerGreenUnderline", { sp = c.green, underline = opts.undercurl })
 M.highlights.quartz_underline =
-	Highlight.new("GruberDarkerQuartzUnderline", { sp = c.quartz, undercurl = opts.undercurl })
+	Highlight.new("GruberDarkerQuartzUnderline", { sp = c.quartz, underline = opts.undercurl })
 M.highlights.niagara_underline =
-	Highlight.new("GruberDarkerNiagaraUnderline", { sp = c.niagara, undercurl = opts.undercurl })
+	Highlight.new("GruberDarkerNiagaraUnderline", { sp = c.niagara, underline = opts.undercurl })
 M.highlights.wisteria_underline =
-	Highlight.new("GruberDarkerWisteriaUnderline", { sp = c.wisteria, undercurl = opts.undercurl })
+	Highlight.new("GruberDarkerWisteriaUnderline", { sp = c.wisteria, underline = opts.undercurl })
 
 return M
