@@ -140,7 +140,12 @@ M.highlights.string_plain_css = Highlight.new("@string.plain.css", { link = grub
 M.highlights.property_class_css = Highlight.new("@property.class.css", { link = gruber_hl.quartz })
 
 -- Variables
--- M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = vim_hl.variable })
+M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = gruber_hl.fg0 })
+
+-- local a = {}
+-- function a:b()
+--     self
+-- end
 
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
