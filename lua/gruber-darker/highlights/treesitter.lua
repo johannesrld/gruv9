@@ -109,8 +109,8 @@ M.highlights.keyword = Highlight.new("@keyword", { link = vim_hl.keyword })
 ---keywords related to conditionals (e.g. `if` / `else`)
 M.highlights.conditional = Highlight.new("@conditional", { fg = c.yellow })
 ---ternary operator (e.g. `?` / `:`)
-M.highlights.conditional_ternary = Highlight.new("@conditional.ternary", { link = vim_hl.operator})
-M.highlights.keyword_conditional_ternary = Highlight.new("@keyword.conditional.ternary", {link = vim_hl.operator})
+M.highlights.conditional_ternary = Highlight.new("@conditional.ternary", { link = vim_hl.operator })
+M.highlights.keyword_conditional_ternary = Highlight.new("@keyword.conditional.ternary", { link = vim_hl.operator })
 
 ---keywords related to loops (e.g. `for` / `while`)
 M.highlights.repeats = Highlight.new("@repeat", { link = vim_hl.repeats })
@@ -120,11 +120,11 @@ M.highlights.debug = Highlight.new("@debug", { link = vim_hl.debug })
 M.highlights.label = Highlight.new("@label", { link = vim_hl.label })
 M.highlights.label = Highlight.new("@label.asm", { link = vim_hl.func })
 ---keywords for including modules (e.g. `import` / `from` in Python)
-M.highlights.include = Highlight.new("@include", {link = gruber_hl.yellow})
+M.highlights.include = Highlight.new("@include", { link = gruber_hl.yellow })
 ---keywords related to exceptions (e.g. `throw` / `catch`)
 -- M.highlights.exception = Highlight.new("@exception", {})
 
-M.highlights.type_builtin = Highlight.new("@type.builtin", {link = vim_hl.type})
+M.highlights.type_builtin = Highlight.new("@type.builtin", { link = vim_hl.type })
 
 M.highlights.storage_class = Highlight.new("@storageclass", { link = vim_hl.storage_class })
 ---attribute annotations (e.g. Python decorators)
@@ -135,14 +135,12 @@ M.highlights.field = Highlight.new("@field", { link = gruber_hl.dark_niagara })
 ---similar to `@field`
 M.highlights.property = Highlight.new("@property", { link = vim_hl.variable })
 M.highlights.property_yaml = Highlight.new("@property.yaml", { link = gruber_hl.fg0 })
-M.highlights.property_css = Highlight.new("@property.css", {link = gruber_hl.yellow } )
-M.highlights.string_plain_css = Highlight.new("@string.plain.css", {link = gruber_hl.fg })
+M.highlights.property_css = Highlight.new("@property.css", { link = gruber_hl.yellow })
+M.highlights.string_plain_css = Highlight.new("@string.plain.css", { link = gruber_hl.fg })
 M.highlights.property_class_css = Highlight.new("@property.class.css", { link = gruber_hl.quartz })
 
-
 -- Variables
-M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = vim_hl.variable})
-M.highlights.variable_builtin = Highlight.new("@variable.builtin.asm", { link = vim_hl.variable})
+-- M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = vim_hl.variable })
 
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
@@ -152,9 +150,9 @@ M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = vim_
 M.highlights.constant_macro = Highlight.new("@constant.macro", { link = vim_hl.define })
 
 ---modules or namespaces
-M.highlights.namespace = Highlight.new("@namespace", { link = gruber_hl.quartz})
-M.highlights.namespace = Highlight.new("@module", { link = gruber_hl.quartz})
-M.highlights.namespace = Highlight.new("@module.builtin", { link = gruber_hl.quartz})
+M.highlights.namespace = Highlight.new("@namespace", { link = gruber_hl.quartz })
+M.highlights.namespace = Highlight.new("@module", { link = gruber_hl.quartz })
+M.highlights.namespace = Highlight.new("@module.builtin", { link = gruber_hl.quartz })
 ---symbols or atoms
 -- M.highlights.symbol = Highlight.new("@symbol", {})
 
@@ -214,7 +212,6 @@ M.highlights.tag = Highlight.new("@tag", { link = vim_hl.tag })
 M.highlights.tag_attribute = Highlight.new("@tag.attribute", { link = vim_hl.identifier })
 -- ---XML tag delimiters
 M.highlights.tag_delimiter = Highlight.new("@tag.delimiter", { link = gruber_hl.grey })
-
 
 -- Markdown
 return M
