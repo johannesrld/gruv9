@@ -77,7 +77,7 @@ M.highlights.character_printf = Highlight.new("@character.printf", { link = vim_
 -- M.highlights.func = Highlight.new("@function", { link = vim_hl.func })
 -- ---Built-in functions
 M.highlights.func_builtin = Highlight.new("@function.builtin", { link = vim_hl.func })
-M.highlights.func_builtin_asm = Highlight.new("@function.builtin.asm", { link = vim_hl.keyword })
+M.highlights.func_builtin_asm = Highlight.new("@function.builtin.asm", { link = vim_hl.func })
 ---Function calls
 -- M.highlights.func_call = Highlight.new("@function.call", {})
 ---Preprocessor macros
@@ -141,13 +141,13 @@ M.highlights.property_class_css = Highlight.new("@property.class.css", { link = 
 
 
 -- Variables
-M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = vim_hl.keyword})
-M.highlights.variable_builtin = Highlight.new("@variable.builtin.asm", { link = vim_hl.identifier})
+M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = vim_hl.variable})
+M.highlights.variable_builtin = Highlight.new("@variable.builtin.asm", { link = vim_hl.variable})
 
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
 ---built-in constant values
-M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = gruber_hl.quartz })
+M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = vim_hl.constant })
 ---constants defined by the preprocessor
 M.highlights.constant_macro = Highlight.new("@constant.macro", { link = vim_hl.define })
 
