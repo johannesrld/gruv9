@@ -144,8 +144,7 @@ M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = grub
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
 ---built-in constant values
-M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = vim_hl.constant })
-M.highlights.constant_builtin = Highlight.new("@constant.builtin.python", { link = gruber_hl.quartz }) -- Used for None for some gods forsaken reason
+M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = gruber_hl.quartz })
 ---constants defined by the preprocessor
 M.highlights.constant_macro = Highlight.new("@constant.macro", { link = vim_hl.define })
 
